@@ -1,0 +1,221 @@
+@import 'http://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+/* GENERAL */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.xdebug-error td,
+.xe-warning td {
+	color: #555;
+}
+
+/* clearfix */
+.group:before, .container:before,
+.group:after, .container:after {
+	content: " ";
+	display: table;
+}
+
+.group:after, .container:after {
+	clear: both;
+}
+
+body {
+	color: #444;
+	font-family: Montserrat;
+	background: #eee;
+	padding: 20px;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* HEADINGS */
+h1 {
+	margin: 0 0 20px;
+}
+
+a {
+	color: #777;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+h1 a:first-child {
+	margin-left: 10px;
+}
+
+a:hover {
+	color: #333;
+}
+
+
+/* TABLE */
+table {
+	color: #fff;
+	background: #34495E;
+	border-collapse: collapse;
+	border-radius: 8px;
+	max-width: 1200px;
+}
+
+thead th {
+	text-transform: capitalize;
+}
+
+th, td {
+	padding: 16px 18px;
+	border-bottom: 1px solid #46627f;
+}
+
+th,
+tfoot td {
+	color: #dd5;
+	text-align: left;
+	font-weight: bold;
+}
+
+tfoot td {
+	text-align: right;
+	border: none;
+}
+
+.odd,
+tbody tr:nth-child(odd) {
+	background-color: #40576E;
+    text-align: left;
+}
+
+table a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid #777;
+}
+
+table th a {
+	color: #dd5;
+}
+
+table a:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.summary td {
+	color: #bbb;
+	text-align: left;
+	max-width: 600px;
+}
+
+
+/* FORM */
+form {
+	margin-bottom: 20px;
+	width: 40%;
+	min-width: 340px;
+    display: inline;
+}
+
+form input,
+form select,
+form textarea {
+	font-size: 16px;
+	line-height: 20px;
+	height: 40px;
+	padding: 8px;
+	border-radius: 3px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+form select {
+	border-radius: 2px;
+}
+
+form textarea {
+	height: 80px;
+	width: 100%;
+}
+
+form select,
+form input:not([type=submit]) {
+	width: 260px;
+}
+
+input[type=submit] {
+	background: #ccc;
+	border-color: #aaa;
+	padding-left: 16px;
+	padding-right: 16px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background: #bfbfbf;
+}
+
+form h1 {
+	margin-bottom: 36px;
+	padding-bottom: 28px;
+	border-bottom: 2px solid #ccc;
+}
+
+form h1 small {
+	color: #ccc;
+	font-size: 25px;
+}
+.submit {
+	margin-top: 36px;
+	padding-top: 36px;
+	border-top: 2px solid #ccc;
+}
+.submit a,
+.navigation a,
+.pagination a {
+	color: #aaa;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 16px;
+}
+
+.pagination strong {
+	margin-left: 16px;
+}
+.navigation .home {
+	margin-right: 16px;
+	margin-left: 0;
+}
+.submit a:hover,
+.navigation a:hover {
+	color: #999;
+}
+.navigation {
+	width: auto;
+	margin-bottom: 20px;
+	padding-bottom: 26px;
+	border-bottom: 2px solid #ddd;
+}
+.navigation select {
+	width: auto;
+}
+form input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+.search {
+    max-width: 960px;
+    margin: 0 auto;
+    display: inline;
+}
+.alert-success{}
+.close{}
+
+
+
+
