@@ -1,3 +1,14 @@
+# Movies #
+Můj první projekt v PHP - cílem bylo naučit se pracovat s DB.
+Stránku spouštím na localhost:8080 (php -S localhost:8080 -t public)
+1. Jde o jednoduchou stránku - výpis nějakých filmů podle režisérů, žánrů, 
+vydělaných peněz, editace filmů, žánrů, režisérů, vytváření nových
+2. DB: movies/database/database.sqlite
+3. framework Lumen, MVC architektura; sice LUMEN, ale vzhledem k cíli píšu sql queries sám..
+4. snaha o fulltext search, což je s sqlite trochu problém. Výsledek není moc uspokojivý, vyhledávání podle LIKE dává lepší výsledky
+5. přidáno stránkování
+
+---
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
